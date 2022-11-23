@@ -29,9 +29,9 @@ let _cmdUser = JSON.parse(fs.readFileSync('./database/commandUser.json'));
 let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
-limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+limitawal = '100'
+botname = 'FyuuBotz'
+wm = '© Fyuu'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -661,7 +661,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 ⌕ Script : https://github.com/AzzBott679
 
 Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
+⌕ Donate : Chat own (Dana / gopay)
 ⌕ Saweria : Kaga ada
 ⌕ Paypal : kaga ada
 
@@ -680,9 +680,9 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Fyuu
+⌕ https://github.com/FyuuYT
+⌕ https://youtube.com/channel/FyuuMondok
 
 `
 	let btn = [{
